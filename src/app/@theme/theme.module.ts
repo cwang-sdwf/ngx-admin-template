@@ -1,3 +1,5 @@
+import { RouterModule } from '@angular/router';
+import { FullScreenLayoutComponent } from './layouts/full-screen/full-screen.layout';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
@@ -52,6 +54,7 @@ const NB_MODULES = [
   NbSelectModule,
   NbIconModule,
   NbEvaIconsModule,
+  RouterModule
 ];
 const COMPONENTS = [
   HeaderComponent,
@@ -61,6 +64,7 @@ const COMPONENTS = [
   OneColumnLayoutComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
+  FullScreenLayoutComponent
 ];
 const PIPES = [
   CapitalizePipe,
